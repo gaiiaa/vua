@@ -2,7 +2,7 @@ import * as vite from "vite";
 import * as lua from "wasmoon";
 
 const luaRegex = /\.lua$/;
-const moduleLuaRegex = /\.manual\.lua$/;
+const moduleLuaRegex = /\.module\.lua$/;
 
 const Factory = new lua.LuaFactory()
 

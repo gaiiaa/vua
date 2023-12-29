@@ -1,3 +1,3 @@
-import { init } from "./test.lua"
+import script from "./script.module.lua";
 
-const run = await init({window
+script.main("WOOO!")
